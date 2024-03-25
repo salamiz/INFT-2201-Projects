@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbcde7d1-2d8e-4073-b7ea-103e6fdea21c" name="Changes" comment="implements server side servlet for project">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/users.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/app.js" afterDir="false" />
-    </list>
+    <list default="true" id="bbcde7d1-2d8e-4073-b7ea-103e6fdea21c" name="Changes" comment="updates project .idea" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +249,7 @@
       <workItem from="1710872212165" duration="18070000" />
       <workItem from="1710972476294" duration="5402000" />
       <workItem from="1711051840850" duration="3487000" />
-      <workItem from="1711374656668" duration="2070000" />
+      <workItem from="1711374656668" duration="2384000" />
     </task>
     <task id="LOCAL-00001" summary="Update gradle">
       <option name="closed" value="true" />
@@ -343,7 +339,31 @@
       <option name="project" value="LOCAL" />
       <updated>1711376711503</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="updates project javascript file">
+      <option name="closed" value="true" />
+      <created>1711376890803</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1711376890803</updated>
+    </task>
+    <task id="LOCAL-00013" summary="creates project database schema">
+      <option name="closed" value="true" />
+      <created>1711376925122</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1711376925122</updated>
+    </task>
+    <task id="LOCAL-00014" summary="updates project .idea">
+      <option name="closed" value="true" />
+      <created>1711376942426</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1711376942426</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -364,13 +384,15 @@
     <MESSAGE value="Update gradle" />
     <MESSAGE value="Update gradle build file" />
     <MESSAGE value="creates .gitignore" />
-    <MESSAGE value="updates project .idea" />
     <MESSAGE value="creates servlet mapping" />
     <MESSAGE value="creates css styling" />
     <MESSAGE value="implements javascript for client side logic" />
     <MESSAGE value="creates src files for styling" />
     <MESSAGE value="creates jsp pages for project" />
     <MESSAGE value="implements server side servlet for project" />
-    <option name="LAST_COMMIT_MESSAGE" value="implements server side servlet for project" />
+    <MESSAGE value="updates project javascript file" />
+    <MESSAGE value="creates project database schema" />
+    <MESSAGE value="updates project .idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates project .idea" />
   </component>
 </project>
