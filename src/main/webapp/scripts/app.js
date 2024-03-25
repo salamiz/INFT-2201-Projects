@@ -2,6 +2,7 @@
  * Name: Zulkifli Salami
  * Student ID: 100850581
  * Date Completed: 02/22/2024
+ * Description: Client side javascript code to implement client side logic and functionalities dynamically
  */
 
 
@@ -11,18 +12,14 @@
  * Dynamically creates and inserts the header into the page.
  */
 function createHeader() {
-    //console.log('createHeader function called');
 
     $.ajax({
-        url: '/auth', // The URL to your servlet endpoint
+        url: '/auth', // The URL to the servlet endpoint
         type: 'POST',
         data: {action: 'status'},
         success: function(response) {
             const isLoggedIn = response.loggedIn;
             const username = response.username;
-
-            // console.log('Is Logged In:', isLoggedIn);
-            // console.log('Username:', username);
 
             let authNavItem = isLoggedIn
                 ? `<span class="navbar-text me-3">Welcome, ${username}</span><a class="nav-link" href="/logout"><i class="fa fa-sign-out-alt"></i> Logout</a>`
@@ -62,15 +59,15 @@ function checkSessionStateAndHandleInactivity() {
         clearTimeout(timeout);
         timeout = setTimeout(() => {
             $.ajax({
-                url: '/auth', // Same endpoint as your other AJAX calls
+                url: '/auth',
                 type: 'POST',
                 data: {action: 'checkSession'}, // Action parameter to check session status
                 success: function(response) {
                     if (!response.sessionActive) {
                         alert("You have been logged out due to inactivity. Please log in again.");
-                        window.location.href = "/login.jsp"; // Redirect to login page
+                        window.location.href = "/login.jsp"; // Redirects to login page
                     } else {
-                        // Session is still active, reset the timer
+                        // Session is still active, resets the timer
                         resetTimer();
                     }
                 },
@@ -98,7 +95,6 @@ $(document).ready(function() {
  * Set background image for the homepage
  */
 function setHomePageBackground() {
-    // Assuming 'homepage-background' class has background image set in CSS
     $('#main-content').addClass('homepage-background');
 }
 
@@ -119,20 +115,20 @@ function addWelcomeText() {
  * Add fixed navar to the bottom of the page
  */
 function addFixedNavbar() {
-    // Create the navbar container
+    // Creates the navbar container
     let navbar = document.createElement('nav');
     navbar.className = 'navbar navbar-expand-lg navbar-light bg-light fixed-bottom';
 
-    // Create the container inside the navbar
+    // Creates the container inside the navbar
     let container = document.createElement('div');
     container.className = 'container-fluid';
 
-    // Create the copyright statement
+    // Creates the copyright statement
     let currentDate = new Date().getFullYear();
     let copyright = document.createElement('span');
     copyright.textContent = `© ${currentDate} Zul`;
 
-    // Append elements together
+    // Appends elements together
     container.appendChild(copyright);
     navbar.appendChild(container);
     document.body.appendChild(navbar);
