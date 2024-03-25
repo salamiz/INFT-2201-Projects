@@ -4,25 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbcde7d1-2d8e-4073-b7ea-103e6fdea21c" name="Changes" comment="Update gradle">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/DatabaseUtility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/project/LogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/about.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/scripts/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/src/Zul.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/src/customProgramming.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/styles/app.css" afterDir="false" />
+    <list default="true" id="bbcde7d1-2d8e-4073-b7ea-103e6fdea21c" name="Changes" comment="implements server side servlet for project">
       <change afterPath="$PROJECT_DIR$/src/main/webapp/users.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project/projectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project/projectServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/scripts/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/scripts/app.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,6 +253,7 @@
       <workItem from="1710872212165" duration="18070000" />
       <workItem from="1710972476294" duration="5402000" />
       <workItem from="1711051840850" duration="3487000" />
+      <workItem from="1711374656668" duration="2070000" />
     </task>
     <task id="LOCAL-00001" summary="Update gradle">
       <option name="closed" value="true" />
@@ -285,7 +271,79 @@
       <option name="project" value="LOCAL" />
       <updated>1710545159152</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Update gradle build file">
+      <option name="closed" value="true" />
+      <created>1711374759487</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711374759487</updated>
+    </task>
+    <task id="LOCAL-00004" summary="creates .gitignore">
+      <option name="closed" value="true" />
+      <created>1711374783165</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1711374783165</updated>
+    </task>
+    <task id="LOCAL-00005" summary="updates project .idea">
+      <option name="closed" value="true" />
+      <created>1711374945127</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711374945127</updated>
+    </task>
+    <task id="LOCAL-00006" summary="creates servlet mapping">
+      <option name="closed" value="true" />
+      <created>1711375001724</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1711375001724</updated>
+    </task>
+    <task id="LOCAL-00007" summary="creates css styling">
+      <option name="closed" value="true" />
+      <created>1711375028051</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711375028051</updated>
+    </task>
+    <task id="LOCAL-00008" summary="implements javascript for client side logic">
+      <option name="closed" value="true" />
+      <created>1711375072858</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1711375072858</updated>
+    </task>
+    <task id="LOCAL-00009" summary="creates src files for styling">
+      <option name="closed" value="true" />
+      <created>1711375113913</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1711375113913</updated>
+    </task>
+    <task id="LOCAL-00010" summary="creates jsp pages for project">
+      <option name="closed" value="true" />
+      <created>1711376672077</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1711376672077</updated>
+    </task>
+    <task id="LOCAL-00011" summary="implements server side servlet for project">
+      <option name="closed" value="true" />
+      <created>1711376711503</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1711376711503</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -304,6 +362,15 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update gradle" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update gradle" />
+    <MESSAGE value="Update gradle build file" />
+    <MESSAGE value="creates .gitignore" />
+    <MESSAGE value="updates project .idea" />
+    <MESSAGE value="creates servlet mapping" />
+    <MESSAGE value="creates css styling" />
+    <MESSAGE value="implements javascript for client side logic" />
+    <MESSAGE value="creates src files for styling" />
+    <MESSAGE value="creates jsp pages for project" />
+    <MESSAGE value="implements server side servlet for project" />
+    <option name="LAST_COMMIT_MESSAGE" value="implements server side servlet for project" />
   </component>
 </project>
