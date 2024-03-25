@@ -1,0 +1,113 @@
+
+.homepage-background {
+    background-image: url('../src/customProgramming.jpeg');
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: calc(100vh - 40px);
+    overflow: auto;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+/* Form styling */
+#login-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#login-form h1 {
+    margin-bottom: 30px;
+}
+
+/* Input fields styling */
+#login-form .form-control {
+    margin-bottom: 20px;
+    border-radius: 20px; /* Rounded borders for input fields */
+    box-shadow: none; /* Remove default box-shadow */
+    border: 1px solid #ced4da; /* Match bootstrap grey border */
+}
+
+/* Button styling to match Bootstrap 'btn-primary' */
+#login-form button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 20px; /* Rounded borders for the button */
+    border: none;
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* Background styling for the projects container */
+.projects-background {
+    background-color: #f0f0f0; /* Light grey background */
+    padding: 20px; /* Add some padding */
+    border-radius: 8px; /* Adds rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+}
+
+#welcome-article {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    z-index: 10;
+    width: 80%;
+    max-width: 800px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+
+
+
+.fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1030; /* Makes sure it stays above other content */
+}
+
+
+.navbar {
+    margin: 0 0 0 0;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    #welcome-article {
+        left: 10%; /* Adjust horizontal position */
+        width: 80%; /* Adjust width */
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        margin: 10px 0; /* Add some margin on smaller screens */
+    }
+    .projects-background{
+        flex-direction: column;
+    }
+}
+
