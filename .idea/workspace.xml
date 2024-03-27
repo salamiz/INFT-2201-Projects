@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbcde7d1-2d8e-4073-b7ea-103e6fdea21c" name="Changes" comment="updates project .idea" />
+    <list default="true" id="bbcde7d1-2d8e-4073-b7ea-103e6fdea21c" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project/projectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project/projectServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -249,7 +253,8 @@
       <workItem from="1710872212165" duration="18070000" />
       <workItem from="1710972476294" duration="5402000" />
       <workItem from="1711051840850" duration="3487000" />
-      <workItem from="1711374656668" duration="2721000" />
+      <workItem from="1711374656668" duration="5863000" />
+      <workItem from="1711564060880" duration="1379000" />
     </task>
     <task id="LOCAL-00001" summary="Update gradle">
       <option name="closed" value="true" />
