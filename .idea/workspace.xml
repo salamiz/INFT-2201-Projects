@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bbcde7d1-2d8e-4073-b7ea-103e6fdea21c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/project/projectServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/project/projectServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-    </list>
+    <list default="true" id="bbcde7d1-2d8e-4073-b7ea-103e6fdea21c" name="Changes" comment="updates license on every code base" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -254,7 +250,7 @@
       <workItem from="1710972476294" duration="5402000" />
       <workItem from="1711051840850" duration="3487000" />
       <workItem from="1711374656668" duration="5863000" />
-      <workItem from="1711564060880" duration="1379000" />
+      <workItem from="1711564060880" duration="1688000" />
     </task>
     <task id="LOCAL-00001" summary="Update gradle">
       <option name="closed" value="true" />
@@ -368,7 +364,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711376942426</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="updates license on every code base">
+      <option name="closed" value="true" />
+      <created>1711565874125</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1711565874125</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,6 +402,7 @@
     <MESSAGE value="updates project javascript file" />
     <MESSAGE value="creates project database schema" />
     <MESSAGE value="updates project .idea" />
-    <option name="LAST_COMMIT_MESSAGE" value="updates project .idea" />
+    <MESSAGE value="updates license on every code base" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates license on every code base" />
   </component>
 </project>
