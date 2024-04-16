@@ -1,10 +1,6 @@
-# INFT-2201-Project
-
-# Project README
-
 ## Design Decisions
 
-This project adheres to the guidelines for Java Web Enterprise dynamic applications as detailed in our coursework. It leverages several key technologies and practices:
+This project adheres to the guidelines for Java Web Enterprise dynamic application implementing authentication and authorization functionalitties. It leverages several key technologies and practices:
 
 ### Framework & Server
 - **Jakarta EE** with **Gradle** for build management.
